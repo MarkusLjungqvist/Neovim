@@ -10,12 +10,11 @@ if true then return {} end
 -- * override the configuration of LazyVim plugins
 return {
   -- add gruvbox
-  { "augustocdias/gatekeeper.nvim" },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gatekeeper",
+      colorscheme = "tokyonight",
     },
   },
 
@@ -140,6 +139,7 @@ return {
         "vim",
         "yaml",
         "csharp",
+        "cs",
       },
     },
   },
